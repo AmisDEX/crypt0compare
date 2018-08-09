@@ -6,7 +6,7 @@ $(document).ready(function() {
 	//Use SubscriptionId 0 for TRADE, 2 for CURRENT, 5 for CURRENTAGG eg use key '5~CCCAGG~BTC~USD' to get aggregated data from the CCCAGG exchange 
 	//Full Volume Format: 11~{FromSymbol} eg use '11~BTC' to get the full volume of BTC against all coin pairs
 	//For aggregate quote updates use CCCAGG ags market
-	var subscription = ['5~CCCAGG~BTC~USD', '5~CCCAGG~ETH~AMIS', '11~AMIS', '11~ETH'];
+	var subscription = ['5~CCCAGG~BTC~USD', '5~CCCAGG~AMIS~ETH', '11~BTC', '11~ETH'];
 	socket.emit('SubAdd', { subs: subscription });
 	socket.on("m", function(message) {
 		console.log(message);
