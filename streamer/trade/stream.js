@@ -1,13 +1,13 @@
 var streamUrl = "https://streamer.cryptocompare.com/";
 var fsym = "AMIS";
-var tsym = "USD";
+var tsym = "ETH";
 var currentSubs;
 var currentSubsText = "";
 var dataUrl = "https://min-api.cryptocompare.com/data/subs?fsym=" + fsym + "&tsyms=" + tsym;
 var socket = io(streamUrl);
 
 $.getJSON(dataUrl, function(data) {
-	currentSubs = data['USD']['TRADES'];
+	currentSubs = data['ETH']['TRADES'];
 	console.log(currentSubs);
 	for (var i = 0; i < currentSubs.length; i++) {
 		currentSubsText += currentSubs[i] + ", ";
