@@ -6,8 +6,8 @@ Read official UPDATED documentation [here](https://min-api.cryptocompare.com/).
 ## Content
 
 ### Streamer API
-1. [Trade streamer example](https://cryptoqween.github.io/streamer/trade/)
-2. [Current streamer example](https://cryptoqween.github.io/streamer/current/)
+1. [Trade streamer example](https://amisdex.github.io/crypt0compare/streamer/trade/)
+2. [Current streamer example](https://amisdex.github.io/crypt0compare/streamer/current/)
 
 
 ## Notes
