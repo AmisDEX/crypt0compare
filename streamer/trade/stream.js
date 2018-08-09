@@ -1,5 +1,5 @@
 var streamUrl = "https://streamer.cryptocompare.com/";
-var fsym = "BTC";
+var fsym = "AMIS";
 var tsym = "USD";
 var currentSubs;
 var currentSubsText = "";
