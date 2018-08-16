@@ -25,6 +25,7 @@ CCC.STATIC.CURRENCY = CCC.STATIC.CURRENCY || {};
 
 CCC.STATIC.CURRENCY.SYMBOL = {
   'BTC': 'Ƀ',
+  'AMIS': 'AMIS',
   'LTC': 'Ł',
   'DAO': 'Ð',
   'USD': '$',
