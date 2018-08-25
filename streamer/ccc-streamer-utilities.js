@@ -210,7 +210,7 @@ CCC.TRADE.FIELDS = {
 
 CCC.TRADE.DISPLAY = CCC.TRADE.DISPLAY || {};
 CCC.TRADE.DISPLAY.FIELDS = {
-  'T': { "Show": false },
+  'T': { "Show": true },
   'M': { "Show": true, 'Filter': 'Market' },
   'FSYM': { "Show": true, 'Filter': 'CurrencySymbol' },
   'TSYM': { "Show": true, 'Filter': 'CurrencySymbol' },
